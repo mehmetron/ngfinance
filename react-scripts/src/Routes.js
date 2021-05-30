@@ -67,7 +67,7 @@ const Routes = () => {
         render={matchProps => (
           <WithLayout
             {...matchProps}
-            component={IndexView}
+            component={DesignCompanyView}
             layout={MainLayout}
           />
         )}
