@@ -158,7 +158,7 @@ CardPricingStandard.propTypes = {
    */
   featureCheckComponent: PropTypes.node,
   /**
-   * Features array of the pricing card
+   * Tokeneconomics array of the pricing card
    */
   features: PropTypes.array,
   /**

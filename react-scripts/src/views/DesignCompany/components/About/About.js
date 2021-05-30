@@ -30,39 +30,28 @@ const About = props => {
       <SectionHeader
         title={
           <span>
+            Explore our first
+            {' '}
             <Typography component="span" variant="inherit" color="primary">
-              We love to explore
-            </Typography>{' '}
-            new ways to engage with brands and reach
+              genesis NFT
+            </Typography>
           </span>
         }
         subtitle="Our mission is to help you to grow your design skills, meet and connect with professional dsigners who share your passions."
         ctaGroup={[
           <Button color="primary" variant="contained" size="large">
-            Try for free
-          </Button>,
-          <Button color="secondary" variant="outlined" size="large">
-            See pricings
-          </Button>,
+            Buy genesis NFT
+          </Button>
         ]}
         data-aos="fade-up"
       />
       <CardBase withShadow liftUp variant="outlined" data-aos="fade-up">
         <Grid container spacing={4}>
           <Grid item xs={12}>
-            <Grid container justify="flex-end">
-              <Image
-                className={classes.playIcon}
-                src="https://assets.maccarianagency.com/the-front/illustrations/play-icon.svg"
-                alt="Play Video"
-              />
-            </Grid>
-          </Grid>
-          <Grid item xs={12}>
             <Grid item xs={12}>
               <Grid container justify="center">
                 <Image
-                  src="https://assets.maccarianagency.com/the-front/illustrations/design-team.svg"
+                  src="https://lh3.googleusercontent.com/SQKRv6-GD_DUzYl5p9Mv4p99o95IhamRVs04p0goE720pvUr-AVEo3HV9CnJdf9QE1nqAeLuMmZI6I_yd5hQiWiXZNPLbi-VvOrv=w600"
                   alt="Play Video"
                 />
               </Grid>

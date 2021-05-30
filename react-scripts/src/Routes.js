@@ -228,7 +228,7 @@ const Routes = () => {
       />
       <Route
         exact
-        path="/design-company"
+        path="/ngfinance"
         render={matchProps => (
           <WithLayout
             {...matchProps}

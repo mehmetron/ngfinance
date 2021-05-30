@@ -49,7 +49,7 @@ const dataProperties = [{
   name: 'features',
   type: 'array',
   default: '',
-  description: 'Features array of the pricing card',
+  description: 'Tokeneconomics array of the pricing card',
 }, {
   name: 'subtitle',
   type: 'string',

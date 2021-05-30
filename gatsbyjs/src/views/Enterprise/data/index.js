@@ -112,7 +112,7 @@ export const advantages = [
     color: colors.purple,
   },
   {
-    title: '3rd-Party Integrations',
+    title: '3rd-Party Tokeneconomics',
     icon: 'fas fa-plug',
     color: colors.blue,
   },

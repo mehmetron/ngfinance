@@ -4,16 +4,18 @@ import { Divider } from '@material-ui/core';
 import { Section, SectionAlternate } from 'components/organisms';
 
 import {
-  About,
-  Features,
-  Hero,
-  Integrations,
-  Pricings,
-  Reviews,
-  Subscription,
+    About,
+    Features,
+    Hero,
+    Integrations,
+    Pricings,
+    Reviews, Roadmap,
+    Subscription, Tokeneconomics, Team
 } from './components';
 
-import { integrations, reviews } from './data';
+import { integrations, reviews, team } from './data';
+import {partners} from "../DesignCompany/data";
+import {Partners} from "../DesignCompany/components";
 
 const useStyles = makeStyles(theme => ({
   hero: {
@@ -42,24 +44,28 @@ const DesignCompany = () => {
   return (
     <div>
       <Hero data-aos="fade-up" className={classes.hero} />
+      <Divider/>
+      <Section>
+          <Partners data={partners} />
+      </Section>
       <SectionAlternate className={classes.sectionAlternate}>
         <About />
       </SectionAlternate>
-      <Section>
-        <Integrations data={integrations} />
-      </Section>
-      <SectionAlternate innerNarrowed>
-        <Features />
-      </SectionAlternate>
+        <Divider/>
+        <Section>
+            <Roadmap />
+        </Section>
+        <Divider/>
+        <Section>
+            <Tokeneconomics />
+        </Section>
+        <Divider />
+        <Section>
+            <Team data={team} className={classes.contentSection} />
+        </Section>
       <SectionAlternate className={classes.reviewSection}>
         <Reviews data={reviews} />
       </SectionAlternate>
-      <Section narrow>
-        <Pricings />
-      </Section>
-      <Section className={classes.sectionSubscription}>
-        <Subscription data-aos="fade-up" />
-      </Section>
       <Divider />
     </div>
   );

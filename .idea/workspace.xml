@@ -1,13 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b9ddc1f-3db0-4470-86df-e436065b9260" name="Default Changelist" comment="" />
+    <list default="true" id="3b9ddc1f-3db0-4470-86df-e436065b9260" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-scripts/src/views/DesignCompany/components/Partners/Partners.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-scripts/src/views/DesignCompany/components/Partners/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-scripts/src/views/DesignCompany/components/Roadmap/Roadmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-scripts/src/views/DesignCompany/components/Roadmap/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-scripts/src/views/DesignCompany/components/Team/Team.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-scripts/src/views/DesignCompany/components/Team/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-scripts/src/views/DesignCompany/components/Tokeneconomics/Tokeneconomics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-scripts/src/views/DesignCompany/components/Tokeneconomics/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsbyjs/src/components/organisms/CardPricingStandard/CardPricingStandard.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsbyjs/src/components/organisms/CardPricingStandard/CardPricingStandard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsbyjs/src/views/Documentation/examples/CardPricingStandardExample/CardPricingStandardExample.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsbyjs/src/views/Documentation/examples/CardPricingStandardExample/CardPricingStandardExample.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsbyjs/src/views/Enterprise/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsbyjs/src/views/Enterprise/data/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsbyjs/src/views/Service/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsbyjs/src/views/Service/data/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs/src/components/organisms/CardPricingStandard/CardPricingStandard.js" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs/src/components/organisms/CardPricingStandard/CardPricingStandard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs/src/views/Documentation/examples/CardPricingStandardExample/CardPricingStandardExample.js" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs/src/views/Documentation/examples/CardPricingStandardExample/CardPricingStandardExample.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs/src/views/Enterprise/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs/src/views/Enterprise/data/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs/src/views/Service/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs/src/views/Service/data/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-scripts/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-scripts/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/src/Routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-scripts/src/components/organisms/CardPricingStandard/CardPricingStandard.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/src/components/organisms/CardPricingStandard/CardPricingStandard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-scripts/src/views/DesignCompany/DesignCompany.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/src/views/DesignCompany/DesignCompany.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-scripts/src/views/DesignCompany/components/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/src/views/DesignCompany/components/About/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-scripts/src/views/DesignCompany/components/Hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/src/views/DesignCompany/components/Hero/Hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-scripts/src/views/DesignCompany/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/src/views/DesignCompany/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-scripts/src/views/DesignCompany/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/src/views/DesignCompany/data/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-scripts/src/views/Documentation/examples/CardPricingStandardExample/CardPricingStandardExample.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/src/views/Documentation/examples/CardPricingStandardExample/CardPricingStandardExample.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-scripts/src/views/Enterprise/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/src/views/Enterprise/data/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-scripts/src/views/Service/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/src/views/Service/data/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1tFHnJeVebpLcIzsSodweZ3qWo8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,12 +54,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/react-scripts/src/views/DesignCompany/components" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/react-scripts/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/react-scripts/src/views/DesignCompany/components" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -33,10 +82,22 @@
       <option name="presentableId" value="Default" />
       <updated>1622358082917</updated>
       <workItem from="1622358085241" duration="231000" />
+      <workItem from="1622359400844" duration="9209000" />
+      <workItem from="1622388693711" duration="2845000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="933" y="473" width="694" height="518" key="find.popup" timestamp="1622391025572">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="933" y="473" width="694" height="518" key="find.popup/2560.-654.1440.2535/0.25.2560.1415@0.25.2560.1415" timestamp="1622391025572" />
+    <state x="945" y="380" width="670" height="676" key="search.everywhere.popup" timestamp="1622388552887">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="945" y="380" width="670" height="676" key="search.everywhere.popup/2560.-654.1440.2535/0.25.2560.1415@0.25.2560.1415" timestamp="1622388552887" />
   </component>
 </project>
