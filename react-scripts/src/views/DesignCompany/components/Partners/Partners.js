@@ -6,7 +6,7 @@ import { Image } from 'components/atoms';
 
 const useStyles = makeStyles(theme => ({
   logoImg: {
-    maxWidth: 120,
+    maxWidth: 150,
   },
 }));
 

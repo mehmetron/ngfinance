@@ -4,10 +4,17 @@ import { Button, Typography } from '@material-ui/core';
 import { SectionHeader, TypedText } from 'components/molecules';
 import { Section, HeroSimpleBackground } from 'components/organisms';
 import { makeStyles } from "@material-ui/core/styles";
-import { FiTwitter } from 'react-icons/fi';
+import Background from '../../../../assets/images/main/header_background.jpg';
 
 const useStyles = makeStyles(theme => ({
-    fontWeight900: {
+    textWhite: {
+        color: "#2d3748",
+    },
+    textTitle: {
+        // color: 'white',
+        fontWeight: 900,
+    },
+    textSubTitle: {
         fontWeight: 900,
     },
     leftSideContent: {
@@ -74,22 +81,22 @@ const Hero = props => {
   const classes = useStyles();
 
     const title = (
-        <Typography variant="h2" component="span" className={classes.fontWeight900}>
+        <Typography variant="h2" component="span" className={classes.textTitle}>
             We make
             <br/>
             <TypedText
                 component="span"
                 variant="h2"
-                color="secondary"
-                className={classes.fontWeight900}
+                color="primary"
+                className={classes.textSubTitle}
                 typedProps={{
                     strings: [
                         'Art',
                         'NFT',
                         'Future',
-                        'and many more...',
+                        'NG Finance',
                     ],
-                    typeSpeed: 50,
+                    typeSpeed: 60,
                     loop: true,
                 }}
             />
@@ -98,17 +105,21 @@ const Hero = props => {
 
   return (
     <div className={className} {...rest}>
-      <HeroSimpleBackground backgroundImage="https://assets.maccarianagency.com/the-front/shapes/banner-bg.svg">
+      <HeroSimpleBackground backgroundImage={Background}>
         <Section narrow>
           <SectionHeader
             title={title}
             titleVariant="h3"
-            subtitle="Simply hold NG Token in your wallet and you will get more. On each transaction the protocol automatically distributes rewards to holders as well as auto-locks liquidity forever."
+            subtitle={
+                <span className={classes.textWhite}>
+                    Simply hold NG Token in your wallet and you will get more. On each transaction the protocol automatically distributes rewards to holders as well as auto-locks liquidity forever.
+                </span>
+            }
             ctaGroup={[
                 <Button color="primary" variant="contained" size="large">
-                    Buy first genesis NFT
+                    Buy genesis NFT
                 </Button>,
-                <Button color="secondary" variant="outlined" size="large">
+                <Button color="default" variant="contained" size="large">
                     Join the community
                 </Button>,
             ]}

@@ -11,6 +11,7 @@ import {
 } from '@material-ui/core';
 import { SectionHeader } from 'components/molecules';
 import { CardBase } from 'components/organisms';
+import { AiFillYoutube } from 'react-icons/ai'
 
 const useStyles = makeStyles(theme => ({
   cardBase: {
@@ -79,20 +80,22 @@ const Team = props => {
                 <ListItemAvatar className={classes.listItemAvatar}>
                   <Avatar {...item.authorPhoto} className={classes.avatar} />
                 </ListItemAvatar>
+                <a href={item.youtubeLink} target="_blank">
                 <ListItemText
-                  className={classes.listItemText}
-                  primary={item.authorName}
-                  secondary={item.title}
-                  primaryTypographyProps={{
-                    className: classes.title,
-                    variant: 'h6',
-                    align: isMd ? 'left' : 'center',
-                  }}
-                  secondaryTypographyProps={{
-                    color: 'textPrimary',
-                    align: isMd ? 'left' : 'center',
-                  }}
-                />
+                    className={classes.listItemText}
+                    primary={item.authorName}
+                    secondary={item.title}
+                    primaryTypographyProps={{
+                      className: classes.title,
+                      variant: 'h6',
+                      align: isMd ? 'left' : 'center',
+                    }}
+                    secondaryTypographyProps={{
+                      color: 'textPrimary',
+                      align: isMd ? 'left' : 'center',
+                    }}
+                  />
+                </a>
               </ListItem>
             </CardBase>
           </Grid>

@@ -1,46 +1,52 @@
+import Coingecko from '../../../assets/images/main/coingecko.svg';
+import Coinmarketcap from '../../../assets/images/main/coinmarketcap.png';
+import Instagram from '../../../assets/images/main/instagram.svg';
+import Twitter from '../../../assets/images/main/twitter.png';
+import Telegram from '../../../assets/images/main/telegram.png';
+import Coinbokjisa from '../../../assets/images/main/coinbokjisa.jpeg';
+import Cryptodeveloper from '../../../assets/images/main/cryptodeveloper.jpeg';
+
 export const team = [
   {
     title: 'Cofounder',
     authorPhoto: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/people/kate-segelson.jpg',
-      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/kate-segelson@2x.jpg 2x',
+      src: Coinbokjisa,
+      // srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/kate-segelson@2x.jpg 2x',
     },
-    authorName: 'Coin Bokjisa',
+    authorName: 'Coin BOKJISA',
+    youtubeLink: 'https://www.youtube.com/channel/UCF7sstdSY4dAOXQ29yVAI-Q',
   },
   {
     title: 'Cofounder',
     authorPhoto: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/people/alex-johnson.jpg',
-      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/alex-johnson@2x.jpg 2x',
+      src: Cryptodeveloper,
+      // srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/alex-johnson@2x.jpg 2x',
     },
-    authorName: 'Crypto developer',
+    authorName: 'Crypto Developer',
+    youtubeLink: 'https://www.youtube.com/channel/UCA6KbBMswPWk6sMTVxDa5xg',
   },
 ];
 
 export const partners = [
   {
-    name: 'Airbnb',
-    logo: 'https://assets.maccarianagency.com/the-front/logos/airbnb.svg',
+    name: 'Coingecko',
+    logo: Coingecko,
   },
   {
-    name: 'Coinbase',
-    logo: 'https://assets.maccarianagency.com/the-front/logos/coinbase.svg',
-  },
-  {
-    name: 'Dribbble',
-    logo: 'https://assets.maccarianagency.com/the-front/logos/dribbble.svg',
+    name: 'Coinmarketcap',
+    logo: Coinmarketcap,
   },
   {
     name: 'Instagram',
-    logo: 'https://assets.maccarianagency.com/the-front/logos/instagram.svg',
+    logo: Instagram,
   },
   {
-    name: 'Netflix',
-    logo: 'https://assets.maccarianagency.com/the-front/logos/netflix.svg',
+    name: 'Twitter',
+    logo: Twitter,
   },
   {
-    name: 'Pinterest',
-    logo: 'https://assets.maccarianagency.com/the-front/logos/pinterest.svg',
+    name: 'Telegram',
+    logo: Telegram,
   },
 ];
 

@@ -1,10 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
-import { Grid, Button, Typography } from '@material-ui/core';
+import {Grid, Button, Typography, Divider, TextField} from '@material-ui/core';
 import { Image } from 'components/atoms';
 import { SectionHeader } from 'components/molecules';
 import { CardBase } from 'components/organisms';
+import GenesisNFT from '../../../../assets/images/main/genesis_nft.jpg';
+import Bnb from '../../../../assets/images/main/bnb.svg';
+
+import { DescriptionCta } from 'components/molecules';
+import { CardProduct } from 'components/organisms';
 
 const useStyles = makeStyles(theme => ({
   playIcon: {
@@ -30,10 +35,10 @@ const About = props => {
       <SectionHeader
         title={
           <span>
-            Explore our first
+            Explore our
             {' '}
             <Typography component="span" variant="inherit" color="primary">
-              genesis NFT
+              Genesis NFT
             </Typography>
           </span>
         }
@@ -46,18 +51,44 @@ const About = props => {
         data-aos="fade-up"
       />
       <CardBase withShadow liftUp variant="outlined" data-aos="fade-up">
-        <Grid container spacing={4}>
-          <Grid item xs={12}>
-            <Grid item xs={12}>
-              <Grid container justify="center">
-                <Image
-                  src="https://lh3.googleusercontent.com/SQKRv6-GD_DUzYl5p9Mv4p99o95IhamRVs04p0goE720pvUr-AVEo3HV9CnJdf9QE1nqAeLuMmZI6I_yd5hQiWiXZNPLbi-VvOrv=w600"
-                  alt="Play Video"
-                />
+          <Grid container justify="center" spacing={4}>
+              <Grid item data-aos={'fade-up'}>
+                  <Image
+                      src={GenesisNFT}
+                      alt="NG Finance's genesis NFT"
+                      className={classes.image}
+                      data-aos="flip-left"
+                      data-aos-easing="ease-out-cubic"
+                      data-aos-duration="2000"
+                  />
               </Grid>
-            </Grid>
+              <Grid item xs={12} sm={6} data-aos={'fade-up'}>
+                  <Typography
+                      variant="h5"
+                      color="textPrimary"
+                      className={classes.blogTitle}
+                      align="left"
+                  >
+                      <i>NG Finance - Genesis NFT</i>
+                  </Typography>
+              </Grid>
+              <Grid item xs={12} sm={6} data-aos={'fade-up'} align="right">
+
+                      <Typography
+                          variant="h5"
+                          color="textSecondary"
+                          className={classes.tag}
+
+                      >
+                      <b>0.9 BNB</b>
+                      {' '}
+                      <Image
+                          src={Bnb}
+                          style={{height:'20px', width: '20px'}}
+                      />
+                      </Typography>
+              </Grid>
           </Grid>
-        </Grid>
       </CardBase>
     </div>
   );

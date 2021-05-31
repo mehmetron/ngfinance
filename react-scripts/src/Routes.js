@@ -72,6 +72,17 @@ const Routes = () => {
           />
         )}
       />
+        <Route
+            exact
+            path="/index"
+            render={matchProps => (
+                <WithLayout
+                    {...matchProps}
+                    component={DesignCompanyView}
+                    layout={MainLayout}
+                />
+            )}
+        />
       <Route
         exact
         path="/home"
