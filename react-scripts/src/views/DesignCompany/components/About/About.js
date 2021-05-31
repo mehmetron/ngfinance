@@ -44,7 +44,7 @@ const About = props => {
         }
         subtitle="Our mission is to help you to grow your design skills, meet and connect with professional dsigners who share your passions."
         ctaGroup={[
-          <Button color="primary" variant="contained" size="large">
+          <Button color="primary" variant="contained" size="large" href="../app">
             Buy genesis NFT
           </Button>
         ]}

@@ -57,6 +57,7 @@ import {
   NotFound as NotFoundView,
   NotFoundCover as NotFoundCoverView,
 } from './views';
+import NftApp from "./views/NftApp";
 
 const Routes = () => {
   return (
@@ -79,6 +80,17 @@ const Routes = () => {
                 <WithLayout
                     {...matchProps}
                     component={DesignCompanyView}
+                    layout={MainLayout}
+                />
+            )}
+        />
+        <Route
+            exact
+            path="/app"
+            render={matchProps => (
+                <WithLayout
+                    {...matchProps}
+                    component={NftApp}
                     layout={MainLayout}
                 />
             )}

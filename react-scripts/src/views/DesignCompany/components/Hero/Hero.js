@@ -116,7 +116,7 @@ const Hero = props => {
                 </span>
             }
             ctaGroup={[
-                <Button color="primary" variant="contained" size="large">
+                <Button color="primary" variant="contained" size="large" href="../app">
                     Buy genesis NFT
                 </Button>,
                 <Button color="default" variant="contained" size="large">
