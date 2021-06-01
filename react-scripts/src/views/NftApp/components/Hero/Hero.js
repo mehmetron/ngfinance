@@ -35,7 +35,7 @@ const Hero = props => {
   const PRICE_BNB_PER_NFT = 0.9;
   const [priceBnbByDollar, setPriceBnbByDollar] = React.useState(300);
   const [amountNft, setAmountNft] = React.useState(1);
-  const [summarizedBnb, setSummarizedBnb] = React.useState(0.9);
+  const [summarizedBnb, setSummarizedBnb] = React.useState(PRICE_BNB_PER_NFT);
 
   const theme = useTheme();
   const isMd = useMediaQuery(theme.breakpoints.up('md'), {
