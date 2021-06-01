@@ -13,6 +13,7 @@ import {
 } from '@material-ui/core';
 import { Image, Icon } from 'components/atoms';
 import { SectionHeader } from 'components/molecules';
+import ComingSoon from "../../../../assets/images/main/coming_soon.svg";
 
 const useStyles = makeStyles(theme => ({
   image: {
@@ -80,7 +81,7 @@ const EndHero = props => {
 
   return (
     <div className={className} {...rest}>
-      <Grid container justify="space-between" spacing={isMd ? 4 : 2}>
+      <Grid container justify="space-between" spacing={isMd ? 4 : 2} data-aos={'fade-up'}>
         <Grid
           item
           container
@@ -90,7 +91,7 @@ const EndHero = props => {
           data-aos={'fade-up'}
         >
           <Image
-            src="https://assets.maccarianagency.com/the-front/illustrations/mobiles.svg"
+            src={ComingSoon}
             className={classes.image}
           />
         </Grid>

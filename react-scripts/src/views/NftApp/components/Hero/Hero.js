@@ -16,6 +16,7 @@ import { SectionHeader } from 'components/molecules';
 import GenesisNFT from '../../../../assets/images/main/genesis_nft.jpg';
 import {CardBase, DescriptionListIcon} from "../../../../components/organisms";
 import InputLabel from '@material-ui/core/InputLabel';
+import Bnb from "../../../../assets/images/main/bnb.svg";
 
 const useStyles = makeStyles(theme => ({
   image: {
@@ -33,9 +34,9 @@ const Hero = props => {
   const classes = useStyles();
 
   const PRICE_BNB_PER_NFT = 0.9;
-  const [priceBnbByDollar, setPriceBnbByDollar] = React.useState(300);
   const [amountNft, setAmountNft] = React.useState(1);
   const [summarizedBnb, setSummarizedBnb] = React.useState(PRICE_BNB_PER_NFT);
+  // const [priceBnbByDollar, setPriceBnbByDollar] = React.useState(300);
 
   const theme = useTheme();
   const isMd = useMediaQuery(theme.breakpoints.up('md'), {
@@ -53,7 +54,6 @@ const Hero = props => {
         container
         justify="space-between"
         spacing={4}
-        direction={isMd ? 'row' : 'column-reverse'}
       >
         <Grid
             item
@@ -101,10 +101,16 @@ const Hero = props => {
                     title={
                       <span>
                         <Typography component="span" variant="h4" color="textPrimary">
-                          <b>0.9</b>
+                          <strong>0.9</strong>
                         </Typography>{' '}
                         <Typography component="span" variant="body1" color="textSecondary">
-                          BNB ($300)
+                          BNB
+                          <span style={{paddingLeft: '10px'}}>
+                            <Image
+                                src={Bnb}
+                                style={{height:'20px', width: '20px'}}
+                            />
+                          </span>
                         </Typography>
                       </span>
                     }
