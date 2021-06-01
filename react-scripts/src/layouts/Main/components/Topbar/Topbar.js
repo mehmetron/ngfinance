@@ -299,28 +299,28 @@ const Topbar = ({ themeMode, themeToggler, onSidebarOpen, pages, className, ...r
               </Popover>
             </div>
           ))}
-          <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
-            <DarkModeToggler themeMode={themeMode} onClick={() => themeToggler()} />
-          </ListItem>
-          <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
-            <Button
-              variant="outlined"
-              component="a"
-              href="/documentation"
-            >
-              Documentation
-            </Button>
-          </ListItem>
+          {/*<ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>*/}
+          {/*  <DarkModeToggler themeMode={themeMode} onClick={() => themeToggler()} />*/}
+          {/*</ListItem>*/}
+          {/*<ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>*/}
+          {/*  <Button*/}
+          {/*    variant="outlined"*/}
+          {/*    component="a"*/}
+          {/*    href="/documentation"*/}
+          {/*  >*/}
+          {/*    Documentation*/}
+          {/*  </Button>*/}
+          {/*</ListItem>*/}
           <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
             <Button
               variant="contained"
               color="primary"
               component="a"
               target="blank"
-              href="https://material-ui.com/store/items/the-front-landing-page/"
+              href="app"
               className={classes.listItemButton}
             >
-              Buy Now
+              Go to app
             </Button>
           </ListItem>
         </List>

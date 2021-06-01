@@ -65,10 +65,10 @@ const Features = props => {
               <SectionHeader
                 title={
                   <span>
-                    Use flexible components.
+                    Coming soon.
                     <br />
                     <Typography component="span" variant="inherit" color="primary">
-                      to build an app quickly.
+                      Next NFT.
                     </Typography>
                   </span>
                 }

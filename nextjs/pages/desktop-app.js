@@ -4,7 +4,7 @@
  * You may delete this file and its occurrences from the project filesystem if you are using react-scripts
  */
 import React from 'react';
-import DesktopApp from 'views/DesktopApp';
+import DesktopApp from 'views/NftApp';
 import Main from 'layouts/Main';
 import WithLayout from 'WithLayout';
 
