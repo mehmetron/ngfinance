@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b9ddc1f-3db0-4470-86df-e436065b9260" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/react-scripts/src/views/NftApp/components/EndHero/EndHero.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-scripts/src/views/NftApp/components/EndHero/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsbyjs/src/layouts/DocsLayout/components/Navbar/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsbyjs/src/layouts/DocsLayout/components/Navbar/data/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextjs/src/layouts/DocsLayout/components/Navbar/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs/src/layouts/DocsLayout/components/Navbar/data/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-scripts/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-scripts/src/layouts/DocsLayout/components/Navbar/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/src/layouts/DocsLayout/components/Navbar/data/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-scripts/src/layouts/Main/components/Topbar/Topbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/src/layouts/Main/components/Topbar/Topbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-scripts/src/views/NftApp/NftApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/src/views/NftApp/NftApp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-scripts/src/views/NftApp/components/Hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/src/views/NftApp/components/Hero/Hero.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +59,7 @@
       <workItem from="1622359400844" duration="9209000" />
       <workItem from="1622388693711" duration="7362000" />
       <workItem from="1622467549381" duration="15810000" />
-      <workItem from="1622544073502" duration="6671000" />
+      <workItem from="1622544073502" duration="7297000" />
     </task>
     <servers />
   </component>

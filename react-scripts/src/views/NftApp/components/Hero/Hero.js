@@ -32,9 +32,10 @@ const Hero = props => {
   const { className, ...rest } = props;
   const classes = useStyles();
 
+  const PRICE_BNB_PER_NFT = 0.9;
   const [priceBnbByDollar, setPriceBnbByDollar] = React.useState(300);
   const [amountNft, setAmountNft] = React.useState(1);
-  const [summarizedPrice, setSummarizedPrice] = React.useState(priceBnbByDollar);
+  const [summarizedBnb, setSummarizedBnb] = React.useState(0.9);
 
   const theme = useTheme();
   const isMd = useMediaQuery(theme.breakpoints.up('md'), {
@@ -43,7 +44,7 @@ const Hero = props => {
 
   const handleChange = event => {
     setAmountNft(event.target.value);
-    setSummarizedPrice(priceBnbByDollar * event.target.value);
+    setSummarizedBnb(PRICE_BNB_PER_NFT * event.target.value);
   };
 
   return (
@@ -130,7 +131,7 @@ const Hero = props => {
               </Grid>
               <Grid item xs={12} align="center">
                 <Typography component="span" variant="inherit" color="textSecondary">
-                  Approx. {amountNft} NFT = {summarizedPrice} BNB
+                  Approx. {amountNft} NFT = {summarizedBnb} BNB
                 </Typography>
               </Grid>
               <Grid item xs={12} align="center">
