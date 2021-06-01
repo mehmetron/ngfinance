@@ -316,7 +316,6 @@ const Topbar = ({ themeMode, themeToggler, onSidebarOpen, pages, className, ...r
               variant="contained"
               color="primary"
               component="a"
-              target="blank"
               href="app"
               className={classes.listItemButton}
             >

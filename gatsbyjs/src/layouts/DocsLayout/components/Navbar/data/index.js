@@ -131,19 +131,19 @@ export const components = [{
     href: '/documentation/?component=description-list-icon',
   }, {
     id: 'hero-background',
-    title: 'Hero Background',
+    title: 'EndHero Background',
     href: '/documentation/?component=hero-background',
   }, {
     id: 'hero-shaped',
-    title: 'Hero Shaped',
+    title: 'EndHero Shaped',
     href: '/documentation/?component=hero-shaped',
   }, {
     id: 'hero-side-image',
-    title: 'Hero Side Image',
+    title: 'EndHero Side Image',
     href: '/documentation/?component=hero-side-image',
   }, {
     id: 'hero-simple-background',
-    title: 'Hero Simple Background',
+    title: 'EndHero Simple Background',
     href: '/documentation/?component=hero-simple-background',
   }, {
     id: 'map',

@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b9ddc1f-3db0-4470-86df-e436065b9260" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/react-scripts/src/views/NftApp/components/EndHero/EndHero.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-scripts/src/views/NftApp/components/EndHero/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsbyjs/pages/desktop-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsbyjs/pages/desktop-app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextjs/pages/desktop-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs/pages/desktop-app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsbyjs/src/layouts/DocsLayout/components/Navbar/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsbyjs/src/layouts/DocsLayout/components/Navbar/data/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs/src/layouts/DocsLayout/components/Navbar/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs/src/layouts/DocsLayout/components/Navbar/data/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-scripts/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-scripts/src/assets/images/main/coingecko.svg" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/src/assets/images/main/coingecko.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-scripts/src/assets/images/main/coinmarketcap.png" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/src/assets/images/main/coinmarketcap.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-scripts/src/assets/images/main/telegram.png" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/src/assets/images/main/telegram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-scripts/src/assets/images/main/twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/src/assets/images/main/twitter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-scripts/src/layouts/DocsLayout/components/Navbar/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/src/layouts/DocsLayout/components/Navbar/data/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-scripts/src/layouts/Main/components/Topbar/Topbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/src/layouts/Main/components/Topbar/Topbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-scripts/src/views/NftApp/NftApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/src/views/NftApp/NftApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-scripts/src/views/NftApp/components/Hub/Hub.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/src/views/NftApp/components/Hub/Hub.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-scripts/src/views/NftApp/components/Hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-scripts/src/views/NftApp/components/Hero/Hero.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/react-scripts/src/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/react-scripts/src/views/NftApp/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,9 +46,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/react-scripts/src/views/NftApp/components" />
+      <recent name="$PROJECT_DIR$/react-scripts/src/views/DesignCompany/components" />
       <recent name="$PROJECT_DIR$/react-scripts/src/views" />
       <recent name="$PROJECT_DIR$/react-scripts/src/assets/images/main" />
-      <recent name="$PROJECT_DIR$/react-scripts/src/views/DesignCompany/components" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -65,7 +65,8 @@
       <workItem from="1622358085241" duration="231000" />
       <workItem from="1622359400844" duration="9209000" />
       <workItem from="1622388693711" duration="7362000" />
-      <workItem from="1622467549381" duration="12729000" />
+      <workItem from="1622467549381" duration="15810000" />
+      <workItem from="1622544073502" duration="6671000" />
     </task>
     <servers />
   </component>
@@ -97,19 +98,19 @@
     </state>
     <state width="2539" height="364" key="GridCell.Tab.0.right/2560.-654.1440.2535/0.25.2560.1347@0.25.2560.1347" timestamp="1622457249131" />
     <state width="2539" height="364" key="GridCell.Tab.0.right/2560.-654.1440.2535/0.25.2560.1348@0.25.2560.1348" timestamp="1622456990184" />
-    <state x="933" y="451" width="694" height="520" key="find.popup" timestamp="1622515448636">
-      <screen x="0" y="25" width="2560" height="1348" />
+    <state x="875" y="225" width="1010" height="809" key="find.popup" timestamp="1622567280311">
+      <screen x="0" y="25" width="2560" height="1345" />
     </state>
     <state x="875" y="225" width="1010" height="808" key="find.popup/2560.-654.1440.2535/0.25.2560.1344@0.25.2560.1344" timestamp="1622474352434" />
-    <state x="875" y="225" width="1010" height="809" key="find.popup/2560.-654.1440.2535/0.25.2560.1345@0.25.2560.1345" timestamp="1622477430353" />
+    <state x="875" y="225" width="1010" height="809" key="find.popup/2560.-654.1440.2535/0.25.2560.1345@0.25.2560.1345" timestamp="1622567280311" />
     <state x="742" y="257" width="1414" height="949" key="find.popup/2560.-654.1440.2535/0.25.2560.1346@0.25.2560.1346" timestamp="1622480658745" />
-    <state x="933" y="451" width="694" height="519" key="find.popup/2560.-654.1440.2535/0.25.2560.1347@0.25.2560.1347" timestamp="1622456363704" />
+    <state x="933" y="451" width="694" height="519" key="find.popup/2560.-654.1440.2535/0.25.2560.1347@0.25.2560.1347" timestamp="1622538867527" />
     <state x="933" y="451" width="694" height="520" key="find.popup/2560.-654.1440.2535/0.25.2560.1348@0.25.2560.1348" timestamp="1622515448636" />
     <state x="933" y="473" width="694" height="518" key="find.popup/2560.-654.1440.2535/0.25.2560.1415@0.25.2560.1415" timestamp="1622391025572" />
-    <state x="945" y="363" width="670" height="645" key="search.everywhere.popup" timestamp="1622531666395">
-      <screen x="0" y="25" width="2560" height="1347" />
+    <state x="945" y="363" width="670" height="644" key="search.everywhere.popup" timestamp="1622565384386">
+      <screen x="0" y="25" width="2560" height="1345" />
     </state>
-    <state x="945" y="363" width="670" height="644" key="search.everywhere.popup/2560.-654.1440.2535/0.25.2560.1345@0.25.2560.1345" timestamp="1622477271947" />
+    <state x="945" y="363" width="670" height="644" key="search.everywhere.popup/2560.-654.1440.2535/0.25.2560.1345@0.25.2560.1345" timestamp="1622565384386" />
     <state x="945" y="363" width="670" height="644" key="search.everywhere.popup/2560.-654.1440.2535/0.25.2560.1346@0.25.2560.1346" timestamp="1622480469423" />
     <state x="945" y="363" width="670" height="645" key="search.everywhere.popup/2560.-654.1440.2535/0.25.2560.1347@0.25.2560.1347" timestamp="1622531666395" />
     <state x="945" y="380" width="670" height="676" key="search.everywhere.popup/2560.-654.1440.2535/0.25.2560.1415@0.25.2560.1415" timestamp="1622388552887" />

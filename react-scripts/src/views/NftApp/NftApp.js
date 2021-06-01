@@ -14,6 +14,7 @@ import {
 } from './components';
 
 import { reviews, support, integrations } from './data';
+import EndHero from "./components/EndHero";
 
 const useStyles = makeStyles(theme => ({
   pagePaddingTop: {
@@ -41,12 +42,16 @@ const NftApp = () => {
         <Section className={classes.pagePaddingTop}>
           <Hero />
         </Section>
+        <Section className={classes.pagePaddingTop}>
+          <EndHero />
+        </Section>
         {/*<Section className={classes.sectionNoPaddingTop}>*/}
         {/*  <Reviews data={reviews} />*/}
         {/*</Section>*/}
-        <Section className={classes.sectionNoPaddingTop}>
-          <Hub />
-        </Section>
+        {/*<Section className={classes.sectionNoPaddingTop}>*/}
+        {/*  <Hub />*/}
+        {/*</Section>*/}
+
       </div>
       {/*<Section narrow>*/}
       {/*  <Support data={support} />*/}
