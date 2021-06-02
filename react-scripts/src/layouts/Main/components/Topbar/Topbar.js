@@ -325,14 +325,23 @@ const Topbar = ({ themeMode, themeToggler, onSidebarOpen, pages, className, ...r
         </List>
       </Hidden>
       <Hidden mdUp>
-        <DarkModeToggler themeMode={themeMode} onClick={() => themeToggler()} />
-        <IconButton
-          className={classes.iconButton}
-          onClick={onSidebarOpen}
-          aria-label="Menu"
+        {/*<DarkModeToggler themeMode={themeMode} onClick={() => themeToggler()} />*/}
+        {/*<IconButton*/}
+        {/*  className={classes.iconButton}*/}
+        {/*  onClick={onSidebarOpen}*/}
+        {/*  aria-label="Menu"*/}
+        {/*>*/}
+        {/*  <MenuIcon />*/}
+        {/*</IconButton>*/}
+        <Button
+            variant="contained"
+            color="primary"
+            component="a"
+            href="app"
+            className={classes.listItemButton}
         >
-          <MenuIcon />
-        </IconButton>
+          Go to app
+        </Button>
       </Hidden>
     </Toolbar>
   );

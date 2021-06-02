@@ -13,9 +13,13 @@ import {
     Subscription, Tokeneconomics, Team
 } from './components';
 
-import { integrations, reviews, team } from './data';
+import { integrations, reviews, team, backer } from './data';
 import {partners} from "../DesignCompany/data";
 import {Partners} from "../DesignCompany/components";
+import Backer from "./components/Backer";
+import Background from "../../assets/images/main/header_background.jpg";
+import {HeroSimpleBackground} from "../../components/organisms";
+import EndHero from "./components/EndHero";
 
 const useStyles = makeStyles(theme => ({
   hero: {
@@ -30,8 +34,8 @@ const useStyles = makeStyles(theme => ({
       backgroundImage: `linear-gradient(180deg, ${theme.palette.alternate.main} 50%, ${theme.palette.background.paper} 0%)`,
     },
   },
-  reviewSection: {
-    background: theme.palette.secondary.main,
+  backerSection: {
+    background: theme.palette.primary.main,
   },
   sectionSubscription: {
     paddingTop: 0,
@@ -63,9 +67,10 @@ const DesignCompany = () => {
         <Section>
             <Team data={team} className={classes.contentSection} />
         </Section>
-      <SectionAlternate className={classes.reviewSection}>
-        <Reviews data={reviews} />
-      </SectionAlternate>
+        <SectionAlternate className={classes.backerSection}>
+            <Backer data={backer} />
+        </SectionAlternate>
+        <EndHero />
       <Divider />
     </div>
   );

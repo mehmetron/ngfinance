@@ -142,7 +142,7 @@ const Hero = props => {
               </Grid>
               <Grid item xs={12} align="center">
                 <Button variant="contained" color="primary" size="large">
-                  Connect Wallet
+                  Register now
                 </Button>
               </Grid>
             </Grid>

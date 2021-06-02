@@ -5,6 +5,11 @@ import Twitter from '../../../assets/images/main/twitter.png';
 import Telegram from '../../../assets/images/main/telegram.png';
 import Coinbokjisa from '../../../assets/images/main/coinbokjisa.jpeg';
 import Cryptodeveloper from '../../../assets/images/main/cryptodeveloper.jpeg';
+import EverGreen from '../../../assets/images/main/evergreen.jpeg';
+import Partner1 from '../../../assets/images/main/partner1.jpeg';
+import Partner2 from '../../../assets/images/main/partner2.jpeg';
+import Partner3 from '../../../assets/images/main/partner3.jpeg';
+import Partner4 from '../../../assets/images/main/partner4.jpeg';
 
 export const team = [
   {
@@ -24,6 +29,73 @@ export const team = [
     },
     authorName: 'Crypto Developer',
     youtubeLink: 'https://www.youtube.com/channel/UCA6KbBMswPWk6sMTVxDa5xg',
+  },
+];
+
+export const backer = [
+  {
+    title: 'Youtube Creator',
+    authorPhoto: {
+      src: EverGreen,
+    },
+    authorName: 'Evergreen',
+    youtubeLink: 'https://www.youtube.com/user/allaboutbiostudy',
+  },
+  {
+    title: 'Youtube Creator',
+    authorPhoto: {
+      src: Partner1,
+    },
+    authorName: '코인 같이 투자',
+    youtubeLink: 'https://www.youtube.com/channel/UCtWJlG1_QzGUbPYGPqL3rcQ',
+  },
+  {
+    title: 'Youtube Creator',
+    authorPhoto: {
+      src: Partner2,
+    },
+    authorName: 'Ripplemania',
+    youtubeLink: 'https://www.youtube.com/channel/UCmsPhoeAf6qto-K16Hb5LZw',
+  },
+  {
+    title: 'Youtube Creator',
+    authorPhoto: {
+      src: Partner3,
+    },
+    authorName: 'YANABU',
+    youtubeLink: 'https://www.youtube.com/channel/UCFxaEbgE8j4rbTo2jtvaDyQ',
+  },
+  {
+    title: 'Youtube Creator',
+    authorPhoto: {
+      src: Partner4,
+    },
+    authorName: '아기고래',
+    youtubeLink: 'https://www.youtube.com/channel/UCqBav2f9-MtpMicWya7nHPA',
+  },
+  {
+    title: 'Youtube Creator',
+    authorPhoto: {
+      src: 'Blog',
+    },
+    authorName: 'Jayplayco',
+    youtubeLink: '',
+  },
+  {
+    title: 'Blog',
+    authorPhoto: {
+      src: '',
+    },
+    authorName: 'Jee',
+    youtubeLink: '',
+  },
+  {
+    title: 'Telegram',
+    authorPhoto: {
+      src: '',
+    },
+    authorName: '일기예보',
+    youtubeLink: '',
   },
 ];
 

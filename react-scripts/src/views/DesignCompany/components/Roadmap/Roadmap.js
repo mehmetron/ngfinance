@@ -33,10 +33,11 @@ const Roadmap = props => {
         return (
     <div className={className} {...rest}>
       <SectionHeader
-        data-aos="fade-up"
         title="Looking Ahead"
+        data-aos="fade-up"
       />
-        <Timeline align="alternate">
+        <Timeline align="alternate"
+                  data-aos="fade-up">
             <TimelineItem>
                 <TimelineOppositeContent>
                     <Typography variant="body2">
